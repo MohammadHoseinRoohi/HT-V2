@@ -31,6 +31,14 @@ namespace Practice4.Entities
         public Degree? Degree { get; set; }
         // کد پستی
         public double ZipCode { get; set; }
+        // مقام
+        public required Position Position { get; set; }
+        // حقوق ماهانه
+        public double MonthlySalary { get; set; }
+        // اضافه کاری
+        public double? Overtime { get; set; }
+        // حنسیت
+        public required Gender Gender { get; set; }
 
         // چگونه بگوییم پایان قرارداد = زمان شروع کار + 1سال؟ باید با کد نویسی این کار را انجام دهیم؟
 

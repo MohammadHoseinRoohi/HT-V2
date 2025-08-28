@@ -8,9 +8,16 @@ namespace Practice4.Entities
 {
     public class Driver : Employee
     {
-        // شماره پلاک
-        // public required string LicensePlateNumber { get; set; }
         // شماره گواهینامه
         public double CertificateNumber { get; set; }
+        // اتوبوس
+        public Bus Bus { get; set; }
+        // سوء پیشینه
+        public bool BadHistory { get; set; }
+
+
+        // اتوبوس برای دولت است با برای تعاونی؟
+        
+        
     }
 }
