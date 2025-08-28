@@ -11,7 +11,7 @@ namespace Practice4.Entities
         // شماره گواهینامه
         public double CertificateNumber { get; set; }
         // اتوبوس
-        public Bus Bus { get; set; }
+        public required Bus Bus { get; set; }
         // سوء پیشینه
         public bool BadHistory { get; set; }
         // مبدا و مقصد مشخص شده
