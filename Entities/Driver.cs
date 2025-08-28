@@ -14,10 +14,11 @@ namespace Practice4.Entities
         public Bus Bus { get; set; }
         // سوء پیشینه
         public bool BadHistory { get; set; }
-
+        // مبدا و مقصد مشخص شده
+        public required OriginAndDestination OriginAndDestination { get; set; }
+        
 
         // اتوبوس برای دولت است با برای تعاونی؟
-        
-        
+
     }
 }

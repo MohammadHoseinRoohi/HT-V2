@@ -16,8 +16,5 @@ namespace Practice4.Entities
         public required Driver Driver { get; set; }
         // زمان شروع به کار
         public DateTime Started { get; set; }
-
-        // مبدا و مقصد
-        // public required OriginAndDestination OriginAndDestinations { get; set; }
     }
 }
