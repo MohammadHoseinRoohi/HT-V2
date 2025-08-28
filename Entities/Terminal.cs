@@ -8,6 +8,8 @@ namespace Practice4.Entities
 {
     public class Terminal : Thing
     {
+        public required Manager Manager { get; set; }
         public required Cooperative Cooperative { get; set; }
+        public required Employee Employee { get; set; }
     }
 }

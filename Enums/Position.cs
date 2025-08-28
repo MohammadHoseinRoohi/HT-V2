@@ -7,6 +7,7 @@ namespace Practice4.Enums
         // حسابدار
         Accountant,
         // راننده
-        Driver
+        Driver,
+        Manager
     }
 }
